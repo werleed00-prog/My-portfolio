@@ -1,1 +1,178 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+
+.contact-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+margin-top:40px;
+}
+
+.contact-info .card,
+.contact-form .card{
+height:100%;
+}
+
+.contact-info p{
+margin:20px 0;
+font-size:18px;
+}
+
+.contact-info i{
+color:#7CFC00;
+margin-right:10px;
+}
+
+form input,
+form textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+background:#1b4332;
+color:white;
+font-size:16px;
+}
+
+form textarea{
+height:150px;
+resize:none;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+color:#ccc;
+}
+
+.social-icons{
+margin-top:20px;
+}
+
+.social-icons a{
+color:#7CFC00;
+font-size:30px;
+margin-right:20px;
+text-decoration:none;
+transition:.3s;
+}
+
+.social-icons a:hover{
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Mustapha</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="work.html">Projects</a></li>
+<li><a href="achievement.html">Achievements</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="timeline.html">Timeline</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="menu">☰</div>
+
+</nav>
+
+</header>
+
+<section>
+
+<h1 class="page-title">Contact Me</h1>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<div class="card">
+
+<h2>Get In Touch</h2>
+
+<p><i class="fas fa-user"></i> Mustapha Mutawakkil Mustapha</p>
+
+<p><i class="fas fa-envelope"></i> werleed00@gmail.com</p>
+
+<p><i class="fas fa-phone"></i> +234 8147046173</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Nigeria</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="contact-form">
+
+<div class="card">
+
+<h2>Send a Message</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Write your message here..." required></textarea>
+
+<button class="btn" type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Mustapha Mutawakkil Mustapha. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
